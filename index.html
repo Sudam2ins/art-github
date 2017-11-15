@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Basic Template</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>•TheArgyleInn_HoldingWebsite_ART</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
   <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
@@ -23,19 +23,7 @@
 
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- js library -->
-  <script type="text/javascript" src="js/library.min.js"></script>
-
-  <!-- scrollbar js -->
-  <script type="text/javascript" src="js/scrollbar.js"></script>
-
-  <!-- bootstrap js -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-
-  <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-  <script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+  
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,12 +32,80 @@
     <![endif]-->
   </head>
   <body>
-    <div class="supersized">
-      <script type="text/javascript">
+    <header class="header pt-20 theme-ffffff">
+      <div class="container">
+        <div class="mytable">
+          <div class="table-cell">
+            <a href="">  THE ARGYLE INN</a>
+          </div>
+          <div class="table-cell pull-right">
+            <nav class="mynav">
+              <a href="">CONTACT</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="logo text-center">
+        <div class="logo-img inline-block">
+          <a href=""><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="logo-contant  ">
+          <h1 class="theme-ffffff">
+            Pre-launch opening days Fri, Sat and Sun
+          </h1>
+        </div>
+      </div>
+    </div>
 
-        jQuery(function($){
 
-          $.supersized({
+
+
+    
+    <footer class="footer theme-ffffff">
+      <div class="container">
+        <div class="mytable">
+          <div class="table-cell va-middle">
+           <p>
+            80 Orchard Street
+          </p>
+        </div>
+        <div class="table-cell text-center va-middle">
+         <p>
+          Country Public House
+        </p>
+      </div>
+      <div class="table-cell pull-right va-middle">
+        <p> 
+          Taralga NSW 2580s
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- js library -->
+<script type="text/javascript" src="js/library.min.js"></script>
+
+<!-- scrollbar js -->
+<script type="text/javascript" src="js/scrollbar.js"></script>
+
+<!-- bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+
+
+<script type="text/javascript">
+
+  jQuery(function($){
+
+    $.supersized({
 
           // Functionality
           slideshow               :   1,      // Slideshow on/off
@@ -57,9 +113,9 @@
           start_slide             :   1,      // Start slide (0 is random)
           stop_loop       : 0,      // Pauses slideshow on last slide
           random          :   0,      // Randomize slide order (Ignores start slide)
-          slide_interval          :   3000,   // Length between transitions
-          transition              :   6,      // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-          transition_speed    : 1000,   // Speed of transition
+          slide_interval          :   7000,   // Length between transitions
+          transition              :   1,      // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+          transition_speed    : 1200,   // Speed of transition
           new_window        : 1,      // Image links open in new window/tab
           pause_hover             :   0,      // Pause slideshow on hover
           keyboard_nav            :   1,      // Keyboard navigation on/off
@@ -93,58 +149,10 @@
           mouse_scrub       : 0
           
         });
-        });
+  });
 
-      </script>
-    </div>
-
+</script>
 
 
-
-
-
-
-    <header class="header pt-20 theme-ffffff">
-      <div class="container">
-        <div class="mytable">
-          <div class="table-cell">
-          <a href="">  <span>THE ARGYLE INN</span></a>
-          </div>
-          <div class="table-cell pull-right">
-           <a href=""><span>CONTACT</span></a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="logo text-center">
-      <div class="logo-img inline-block">
-      <a href="">  <img src="images/logo.png" alt="" class="img-responsive" ></a>
-      </div>
-      <div class="logo-contant  ">
-       a <h1 class="theme-ffffff">Pre-launch opening days Fri, Sat and Sun</h1>
-      </div>
-    </div>
-    <main class="main">
-    </main>
-
-    <footer class="footer theme-ffffff">
-      <div class="container">
-        <div class="mytable">
-          <div class="table-cell va-middle">
-            <span>80 Orchard Street</span>
-          </div>
-          <div class="table-cell text-center va-middle">
-            <span>Country Public House</span>
-          </div>
-          <div class="table-cell pull-right va-middle">
-            <span>Taralga NSW 2580s</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-
-
-  </body>
-  </html>
+</body>
+</html>
