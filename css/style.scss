@@ -88,7 +88,7 @@ img{
 }
 
 h1,h2,h3,h4,h5,h6{
-	color: $theme-393939;
+	
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -99,7 +99,7 @@ h1{
 }
 
 h2{
-	font-size: 24px;
+	font-size: 18px;
 }
 
 h3{
@@ -124,8 +124,8 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a{
 label{
 	font-weight: normal;
 }
-.font8px{
-	font-size: 8px;
+.font18px{
+	font-size: 18px;
 }
 .font9px{
 	font-size: 9px;
@@ -649,8 +649,16 @@ footer{
 	left: 0;
 	right: 0;
 	p{
+		margin: 0;
+		
 		@media (max-width:767px){
 				font-size: 10px;
+			}
+	}
+	h2{
+		margin: 0;
+		@media (max-width:767px){
+				font-size: 14px;
 			}
 	}
 }

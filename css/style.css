@@ -12,7 +12,7 @@ body, html {
   height: 100%; }
 
 body {
-  background: #ffffff;
+  background: #e5e0d9;
   color: #393939;
   font-size: 14px;
   font-family: 'Vollkorn', serif;
@@ -71,16 +71,13 @@ img {
   border: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #393939; }
-
-h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
 h1 {
   font-size: 35px; }
 
 h2 {
-  font-size: 24px; }
+  font-size: 18px; }
 
 h3 {
   font-size: 22px; }
@@ -100,8 +97,8 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 label {
   font-weight: normal; }
 
-.font8px {
-  font-size: 8px; }
+.font18px {
+  font-size: 18px; }
 
 .font9px {
   font-size: 9px; }
@@ -480,10 +477,10 @@ label {
   background-color: #838383 !important; }
 
 .theme-ffffff {
-  color: #ffffff !important; }
+  color: #e5e0d9 !important; }
 
 .theme-ffffff-bg {
-  background-color: #ffffff !important; }
+  background-color: #e5e0d9 !important; }
 
 .theme-007a92 {
   color: #007a92 !important; }
@@ -592,8 +589,15 @@ footer {
   bottom: 20px;
   left: 0;
   right: 0; }
-  @media (max-width: 767px) {
-    footer p {
-      font-size: 10px; } }
+  footer p {
+    margin: 0; }
+    @media (max-width: 767px) {
+      footer p {
+        font-size: 10px; } }
+  footer h2 {
+    margin: 0; }
+    @media (max-width: 767px) {
+      footer h2 {
+        font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
