@@ -12,8 +12,8 @@ body, html {
   height: 100%; }
 
 body {
-  background: #e5e0d9;
-  color: #393939;
+  background: #ece7e0;
+  color: #ece7e0;
   font-size: 14px;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
@@ -477,10 +477,10 @@ label {
   background-color: #838383 !important; }
 
 .theme-ffffff {
-  color: #e5e0d9 !important; }
+  color: #ece7e0 !important; }
 
 .theme-ffffff-bg {
-  background-color: #e5e0d9 !important; }
+  background-color: #ece7e0 !important; }
 
 .theme-007a92 {
   color: #007a92 !important; }
