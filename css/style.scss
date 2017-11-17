@@ -612,6 +612,10 @@ label{
 }
 .header{
 	font-family: 'Roboto', sans-serif;
+	.mynav{
+		text-align: right;
+		display: inline-block;
+	}
 }
 .logo{
 	position: absolute;
@@ -658,7 +662,7 @@ footer{
 	h2{
 		margin: 0;
 		@media (max-width:767px){
-				font-size: 14px;
+				font-size: 12px;
 			}
 	}
 }
